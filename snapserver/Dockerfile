@@ -14,8 +14,8 @@ RUN \
 #Install Librespot
 #Erased to allow install in Home Assistant (Librespot 6 deprecated)
 
-#Install Snapcast - Also removed to allow install
-#RUN apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community/ snapcast-server=0.31.0-r0
+#Install Snapcast - Also edited to allow install
+RUN apk add --no-cache --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community/ snapcast-server
 
 #Install Snapweb
 RUN \
